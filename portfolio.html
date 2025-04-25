@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      padding: 40px 20px;
+      perspective: 1000px;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      transform: rotateX(5deg);
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header span {
+      color: #00ffe5;
+      text-shadow: 0 0 10px #00ffe5;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+
+    section {
+      background: rgba(255, 255, 255, 0.05);
+      margin: 40px auto;
+      padding: 30px;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      backdrop-filter: blur(8px);
+      transform: rotateY(-2deg);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: rotateY(0);
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    .project {
+      margin-top: 15px;
+      padding: 15px;
+      background: rgba(0,0,0,0.2);
+      border-left: 4px solid #00ffd0;
+      border-radius: 10px;
+    }
+
+    a {
+      color: #00ffd0;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 0 10px #000;
+}
+
+.intro-text {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .header-content {
+    flex-direction: column;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+        <img src="Screenshot from 2025-02-23 14-59-58.png" alt="ASHISH RAJ" class="profile-pic" />
+        <div class="intro-text">
+    <h1>Hey, I'm <span>Ashish</span></h1>
+    <p>AI | Cybersecurity | Web Dev Enthusiast</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m an aspiring AI Developer passionate about tech, innovation, and building solutions that make an impact. I love working on unique ideas and turning them into real projects.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3> Project Sanjeevani</h3>
+      <p>AI healthcare solution to assist patients using smart diagnosis.</p>
+    </div>
+    <div class="project">
+      <h3> Customer Churn Prediction</h3>
+      <p>ML model to predict customer churn and improve retention.</p>
+    </div>
+    <div class="project">
+      <h3> Project Ashia</h3>
+      <p>Emotion-aware AI best friend bot with voice interaction.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: ashishraj112.ashu@example.com</p>
+    <p>ph.no.: 8969689751</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/ashish" target="_blank">ashish</a></p>
+    <p>GitHub: <a href="hhttps://github.com/rajash112" target="_blank">ashish raj github</a></p>
+  </section>
+
+</body>
+</html>
